@@ -1,4 +1,4 @@
-const API_KEY = '1d8090427fb992fcf133881f665aba7f';
+const API_KEY = ''; //需要自行申请 api 的 key ,申请方法 https://lbs.amap.com/api/webservice/guide/create-project/get-key
 
 async function getPosition() {
     return new Promise(async (resolve, reject) => {
